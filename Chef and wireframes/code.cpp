@@ -1,6 +1,17 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2638
-\cocoatextscaling0\cocoaplatform0{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	int n,m,x;
+	cin>>n>>m>>x;
+	int length=2*n;
+	int breadth = 2*m;
+	int cost=(length+breadth)*x;
+	cout<<cost<<endl;
+	}
+	return 0;
 }
