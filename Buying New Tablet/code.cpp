@@ -1,6 +1,30 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2638
-\cocoatextscaling0\cocoaplatform0{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int n,b;
+	    cin>>n>>b;
+	    int w,h,p;
+	    int temp=0;
+	    for(int i=1;i<=n;i++)
+	    {
+	        cin>>w>>h>>p;
+	        if(p<=b)
+	        {
+	            temp=max(temp,w*h);
+	        }
+	    }
+	if(temp==0)
+	{
+	    cout<<"no tablet"<<endl;
+	}
+	else 
+	{
+    cout<<temp<<endl;
+	}
+}
 }
