@@ -1,6 +1,19 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2638
-\cocoatextscaling0\cocoaplatform0{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--){
+	int a,b;
+	cin>>a>>b;
+	int x=a+b;
+	if(x%3==0 ||a%3==0 || b%3==0){
+	    cout<<"YES"<<endl;
+	}
+	else{
+	    cout<<"NO"<<endl;
+	}
+	}
+	return 0;
 }
