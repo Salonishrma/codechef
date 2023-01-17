@@ -1,6 +1,18 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2638
-\cocoatextscaling0\cocoaplatform0{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int a,b;
+	cin>>a>>b;
+	if(a==0){
+	    cout<<"https://www.codechef.com/practice";
+	}
+	else if(a==1 && b==0){
+	    cout<<"https://www.codechef.com/contests";
+	}
+	else if(a==1 && b==1){
+	    cout<<"https://discuss.codechef.com";
+	}
+	return 0;
 }
