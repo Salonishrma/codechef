@@ -1,6 +1,13 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2638
-\cocoatextscaling0\cocoaplatform0{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-}
+#include<bits/stdc++.h>
+class Solution {
+public:
+    string largestOddNumber(string num) {
+      for(int i=num.size()-1;i>=0;i--){
+          if(num[i]%2==0)
+          num.pop_back();
+          else
+          break;
+      }
+      return num;
+    }
+};
